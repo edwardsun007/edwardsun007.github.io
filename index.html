@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap core CSS -->
+	<link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!-- Animate css -->
+	<link href="vendors/additional/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="vendors/additional/magnific-popup.css" rel="stylesheet">
+  <!-- Responsive CSS -->
+	<link href="vendors/additional/responsive.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+  <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+  <!--link rel="stylesheet" type="text/css" href="vendors/css/animate.css"-->
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P"
+    crossorigin="anonymous">
+
+
+  <title>Jianfeng Sun</title>
+  <style>
+    #map {
+      width: 100%;
+      height: 400px;
+      background-color: grey;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="row">
+        <ul class="main-nav js--main-nav">
+          <li>
+            <a href="#features">About</a>
+          </li>
+          <li>
+            <a href="#works">Projects</a>
+          </li>
+          <li>
+            <a href="#cities">Skills</a>
+          </li>
+          <li>
+            <a href="#plans">Contact</a>
+          </li>
+        </ul>
+        <a class="mobile-nav-icon js--nav-icon">
+          <i class="ion-navicon-round"></i>
+        </a>
+      </div>
+    </nav>
+    <div class="hero-text-box">
+      <h1 class="zoomIn animated">Hi, I'm Jianfeng Sun</h1>
+      <br>
+      <h2>Front-End Web Developer | Full Stack Developer</h2>
+      <a class="btn btn-full js--scroll-to-plans fadeInUp animated" href="resources/pdf/Edward-FrontEnd.pdf" download="resume">Download my resume</a>
+      <a class="btn btn-full js--scroll-to-start fadeInUp animated" href="#">Show me more</a>
+    </div>
+
+  </header>
+
+  <section class="section-features js--section-features" id="features">
+    <div class="row">
+      <h2 class="fadeInUp animated">About Me</h2>
+    </div>
+
+    <div class="row js--wp-1">
+      <div class="col selfie-box">
+        <img src="resources/img/Fotor_photo_edit_v1.jpg" class="responsive-img circle" alt="profile picture">
+        <br>
+        <table>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>
+              <i class="ion-person icon-small"></i>Name: </td>
+            <td> Jianfeng Sun</td>
+          </tr>
+          <tr>
+            <td>
+              <i class="ion-ios-location icon-small"></i>Address: </td>
+            <td> San Jose, CA</td>
+          </tr>
+          <tr>
+            <td>
+              <i class="ion-iphone icon-small"></i>Phone: </td>
+            <td> (626)-639-8548 </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="ion-email icon-small"></i>Email: </td>
+            <td> edwardsun518@gmail.com</td>
+          </tr>
+
+        </table>
+      </div>
+
+      <div class="col span-1-of-2 selfie-box">
+        <p>
+          Hi, my name is Jianfeng Sun ! Throughout my life, I have always been seeking opportunities and challenges that are meaningful to me. I always achieved my goals even though the path has never been easy -- from intern at a start-up, to completing an immerse boot camp in only 12 weeks, and to work as frontend developer — I've never stopped learning, trying new things and engaging my passion to help others and solve problems.</p>
+        <br>  
+        <p>On coding, I take 'clean and simple code' as my rule of thumb because it make things easier to understand and maintain for everyone. I have experience working in fast-paced Agile teams for years, and I am capable of picking up new techniques and delivering features in short period of time</p>
+        <p>I adapt to Agile environment very well, and I have been working with cross-functional teams made of PM, Directors, Business Analysts, QA etc, which made me a very good team player.
+        </p>
+        <br>
+        <p>
+          I am currently seeking for new opportunity where I can apply my expertise and work with a passionate team together to build things that can make a difference for the work and help the community as well
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-steps" id="works">
+    <div class="row">
+      <h2>Projects</h2>
+    </div>
+    <div class="row project-showcase" id="sailing">
+
+      <div class="project-photo">
+        <h2>NetDish Website</h2>
+        <img src="resources/img/netdish.png">
+        <br>
+
+        <h4>In this project, use can visit NetDish website, add menu item and place orders, like any particular food</h4>
+
+        <ul>
+          <li>Built with Angular 6, Express, Node, MongoDB (MEAN stack)</li>
+          <li>Features for admin user only: create/delete new menu item, access to orders of all users</li>
+          <li>Social account supports: Google login, Facebook account</li>
+          <li>Order receipt is automatically emailed to website owner and the customer</li>
+          <li>Authentication with JWT and route protection implemented</li>
+          <li>Socket.io is used to gather info about online users for for analytic purpose</li>
+        </ul>
+        <div class="links">
+          <a href="https://github.com/edwardsun007/net_dish">Github link</a>
+        </div>
+      </div>
+
+      <div class="project-photo" id="groupBuying">
+        <h2>My Blog</h2>
+        <img src="resources/img/my_blog.png">
+
+        <h4>
+          Social appication for user create blog 
+        </h4>
+        <ul>
+          <li>Application is built with Angular 6, Express, Node, MongoDB (MEAN stack)
+          <li>Reusable and fluid components are built using Angular Material</li>
+          <li>Image uploading is supported in creating blog feature</li>
+          <li>User can edit or delete their created blog post</li>
+          <li>Authentication with JWT</li>
+        </ul>
+        <div class="links">
+          <div class="onelink">
+            <a href="https://github.com/edwardsun007/myBlog">Github link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-cities" id="cities">
+    <div class="row">
+      <h2>Skills</h2>
+    </div>
+    <div class="row">
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/skill_bg.jpeg" alt="Berlin">
+        <h3>Languages</h3>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> JavaScript ES6
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> HTML 5
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> CSS 3
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> Java
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> Python
+        </div>
+      </div>
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/framework.jpeg" alt="San Francisco">
+        <h3>Web Framework</h3>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> Angular
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> React
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> Node
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> Django
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> Flask
+        </div>
+      </div>
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/tool.jpeg" alt="Berlin">
+        <h3>Methdologies</h3>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> Agile SDLC
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> OOP
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> MVC
+        </div>
+        <div class="skill-feature">
+          <i class="ion-code-working icon-small"></i> TDD
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/database.jpeg" alt="London">
+        <h3>DATABASES</h3>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> MongoDB
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> MySQL
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> SQLite
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> Cassandra
+        </div>
+      </div>
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/tool.jpeg" alt="San Francisco">
+        <h3>Development, Version Control and Defect Management</h3>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> VS Code
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> Visual Studio
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> Git
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> Mercurial
+        </div>
+          <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> Jira
+        </div>
+      </div>
+      <div class="col span-1-of-3 box">
+        <img src="resources/img/webtech.jpeg" alt="Lisbon">
+        <h3>Web Tech</h3>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> HTTP 1.0+2.0
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> AJAX
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> MVC
+        </div>
+        <div class="skill-feature">
+          <i class="ion-load-d icon-small"></i> RESTful API Design
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="section-plans" id="plans">
+    <h2 class="row">Get In Touch</h2>
+
+    <div class="row contact">
+
+      <div class="col span-1-of-3">
+        <a href="https://www.linkedin.com/in/edwardsuncareer/">
+          <i class="fas ion-social-linkedin-outline fa-3x"></i>
+        </a>
+        <p>
+          <a href="https://www.linkedin.com/in/edwardsuncareer/">
+            @Jianfeng Sun
+          </a>
+        </p>
+      </div>
+      <div class="col span-1-of-3">
+        <i class="fa fa-phone fa-3x"></i>
+        <p class="phone">
+          (626)-639-8548
+        </p>
+      </div>
+      <div class="col span-1-of-3">
+        <a href="mailto:edwardsun518@gmail.com">
+          <i class="fas ion-email fa-3x"></i>
+        </a>
+        <p>
+          <a href="mailto:edwardsun518@gmail.com">edwardsun518@gmail.com</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="location-map">
+        <div id="mapCanvas" class="map-canvas"></div>
+      </div>
+    </div>
+
+
+
+
+
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {
+          lat: 37.35,
+          lng: -121.94
+        };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdqztSOs8mnf8hEn80ymCn7ORbxmdi29c&callback=initMap">
+
+
+    </script>
+
+
+  </section>
+
+  <footer>
+    <div class="row">
+      <h2>Contact me through Webs</h2>&nbsp;
+      <ul class="social-links">
+        <li>
+          <a href="https://github.com/edwardsun007?tab=repositories">
+            <i class="ion-social-github fa-1x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/edwardsuncareer/">
+            <i class="ion-social-linkedin-outline fa-1x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:edwardsun518@gmail.com">
+            <i class="ion-email  fa-1x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <div class="bottom">
+    <p>
+      COPYRIGHT &copy;
+      <i class="fas fa-cog fa-spin"></i> Jianfeng Sun 2018
+    </p>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="resources/js/script.js"></script>
+
+  <script>
+    var p = $(".popup__overlay");
+
+    $("#popup__toggle").click(function () {
+      p.css("display", "block");
+    });
+    p.click(function (event) {
+      e = event || window.event;
+      if (e.target == this) {
+        $(p).css("display", "none");
+      }
+    });
+    $(".popup__close").click(function () {
+      p.css("display", "none");
+    });
+
+    //video popup
+    function toggleVideo(state) {
+      // if state == 'hide', hide. Else: show video
+      var div = document.getElementById("popupVid");
+      var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+      //div.style.display = state == 'hide' ? 'none' : '';
+      func = state == "hide" ? "pauseVideo" : "playVideo";
+      iframe.postMessage(
+        '{"event":"command","func":"' + func + '","args":""}',
+        "*"
+      );
+    }
+
+    $("#popup__toggle").click(function () {
+      p.css("visibility", "visible").css("opacity", "1");
+    });
+
+    p.click(function (event) {
+      e = event || window.event;
+      if (e.target == this) {
+        $(p)
+          .css("visibility", "hidden")
+          .css("opacity", "0");
+        toggleVideo("hide");
+      }
+    });
+
+    $(".popup__close").click(function () {
+      p.css("visibility", "hidden").css("opacity", "0");
+      toggleVideo("hide");
+    });
+
+  </script>
+
+  <!-- Javascript files -->
+  <!--script src="resources/js/js/jquery.js"></script>
+  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+	<script src="resources/js/js/jquery.stellar.min.js"></script>
+	<script src="resources/js/js/jquery.sticky.js"></script>
+	<script src="resources/js/js/smoothscroll.js"></script>
+  <script src="resources/js/js/wow.min.js"></script>
+  <script src="resources/js/js/jquery.countTo.js"></script>
+	<script src="resources/js/js/jquery.inview.min.js"></script>
+	<script src="resources/js/js/jquery.easypiechart.js"></script>
+	<script src="resources/js/js/jquery.shuffle.min.js"></script>
+	<script src="resources/js/js/jquery.magnific-popup.min.js"></script>
+  <script src="resources/js/js/jquery.fitvids.js"></script-->
+
+</body>
+
+</html>
